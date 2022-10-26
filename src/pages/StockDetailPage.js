@@ -7,7 +7,7 @@ const formatData = (data) => {
   return data.t.map((el, index) => {
     return {
       x: el * 1000,
-      y: data.c[index],
+      y: parseFloat(data.c[index]).toFixed(2),
     };
   });
 };
