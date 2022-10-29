@@ -29,13 +29,13 @@ export const StockChart = ({ chartData, symbol }) => {
     colors: [color],
     title: {
       text: symbol,
-      align: "center",
       style: {
         fontSize: "24px",
       },
     },
     chart: {
       id: "stock data",
+      align: "center",
       animations: {
         speed: 1300,
       },
